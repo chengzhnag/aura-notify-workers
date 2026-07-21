@@ -182,7 +182,9 @@ bun run build
 ```
 https://<your-worker-name>.<your-subdomain>.workers.dev/api/init
 ```
-直接在浏览器访问上述 URL。
+直接在浏览器访问上述 URL
+
+![image](https://cdn.jsdelivr.net/gh/Zgrowth/image@master/document/image.86uckuhxsg.webp)
 
 6. **完成！** 🎉
 
