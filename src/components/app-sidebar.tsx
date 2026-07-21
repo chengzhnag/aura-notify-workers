@@ -144,7 +144,7 @@ export function AppSidebar({ open }: { open: boolean }): JSX.Element {
                       只需简单配置，即可定时提醒自己完成各种事务，例如每天早上九点锻炼身体、每天晚上十点复盘工作进度、每周五整理下周计划等，养成良好的自我管理习惯。
                     </p>
                     <Button variant="outline" className="rounded-xl gap-2" asChild>
-                      <a href="https://github.com/chengzhnag/aura-notify" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/chengzhnag/aura-notify-workers" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="h-4 w-4" />
                         GitHub
                       </a>

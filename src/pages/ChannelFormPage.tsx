@@ -269,7 +269,7 @@ export function ChannelFormPage() {
                 <CardTitle className="text-base font-bold flex items-center gap-2">
                   <ShieldCheck className="h-4 w-4 text-primary" /> 鉴权与端点配置
                   <a
-                    href={docLink || "https://github.com/chengzhnag/aura-notify"}
+                    href={docLink || "https://github.com/chengzhnag/aura-notify-workers"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="ml-1 flex items-center gap-1 uppercase tracking-widest"
