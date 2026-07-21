@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "aura-notify",
+  "main": "worker/index.ts",
+  "compatibility_date": "2025-04-24",
+  "assets": {
+    "not_found_handling": "single-page-application",
+    "run_worker_first": [
+      "/api/*",
+      "!/api/docs/*"
+    ]
+  },
+  "vars": {
+    "PASSWORD": "123456",
+    "JWT_SECRET": "jwt_secret_aura_kcerf3ssd6",
+    "UTC_BENCHMARK": "UTC+8"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "demo",
+      "database_id": "3f2cb072-5c09-44a3-b19a-a33bb570e7d8"
+    }
+  ],
+  "triggers": {
+    "crons": ["*/30 * * * *"]
+  }
+}
