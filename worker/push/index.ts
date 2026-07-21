@@ -36,7 +36,7 @@ class DingtalkSender implements ChannelSender {
       if (isLikelyMarkdown(notification.content)) {
         payload = buildDingtalkMessage("markdown", { title: notification.title, content: notification.content });
       } else {
-        payload = buildDingtalkMessage("actionCard", { title: notification.title, content: notification.content });
+        payload = buildDingtalkMessage("text", { title: notification.title, content: notification.content });
       }
       const webhookUrl = config.webhookUrl || config.webhook || "";
       const secret = config.secret || "";
